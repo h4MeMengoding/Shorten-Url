@@ -2,6 +2,7 @@ import { Link, Flex, Button } from '@chakra-ui/react'
 import { useEffect, useRef, useState } from 'react'
 import { HiDownload } from 'react-icons/hi'
 import Image from 'next/image'
+import H from "./header.module.css"
 
 import { sendEvent } from 'libs/splitbee'
 import { DarkModeSwitch } from '../DarkModeSwitch'
@@ -64,17 +65,13 @@ export function Header() {
   }
 
   return (
-    <Flex
-      position="fixed"
+    <Flex className={H.header}
       top="0"
       left="0"
       width="100%"
       justifyContent="space-between"
       alignItems="center"
-      p="4"
       as="header"
-      zIndex="3"
-      bg="#008DEF"
     >
       <Link
         href={'/'}

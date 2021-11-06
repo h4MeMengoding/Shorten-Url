@@ -11,9 +11,9 @@ export function DarkModeSwitch() {
       onClick={toggleColorMode}
       fontSize="20px"
       borderRadius="md"
-      bgColor="#005189"
+      bgColor="#0F9DFF"
       _hover={{
-        bg: '#00548E'
+        bg: '#003356'
       }}
       icon={isDark ? <HiSun color="white" /> : <HiMoon color="white" />}
     />

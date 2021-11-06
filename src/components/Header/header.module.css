@@ -1,0 +1,15 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    background: rgba( 0, 141, 239, 0.50 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    z-index: 3;
+    padding: 15px;
+}
