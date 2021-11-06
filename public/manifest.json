@@ -1,0 +1,36 @@
+{
+  "short_name": "hamsh.me",
+  "name": "hamsh.me: Pemendek tautan yang simpel dan mudah",
+  "icons": [
+    {
+      "src": "/images/maskable/hamsh-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/maskable/hamsh-512x152.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable any"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#008DEF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#008DEF",
+  "description": "Pemendek tautan yang simpel dan mudah",
+  "screenshots": [
+    {
+      "src": "/images/screen/home.png",
+      "type": "image/png",
+      "sizes": "407x763"
+    },
+    {
+      "src": "/images/screen/dashboard.png",
+      "type": "image/jpg",
+      "sizes": "409x762"
+    }
+  ]
+}
