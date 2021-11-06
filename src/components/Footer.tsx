@@ -8,7 +8,6 @@ import {
   Link,
   useColorModeValue
 } from '@chakra-ui/react'
-import Image from 'next/image'
 
 import {
   // login,
