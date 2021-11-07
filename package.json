@@ -1,6 +1,6 @@
 {
   "name": "hamsh.me",
-  "description": "Pemendek tautan yang simpel dan mudah",
+  "description": "Penyingkat URL canggih yang mudah dan simpel",
   "private": true,
   "version": "0.0.1",
   "scripts": {
