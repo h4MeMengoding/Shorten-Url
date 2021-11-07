@@ -51,8 +51,8 @@ export function ErrorDataNotFound({ title, useCta, ctaAction, ctaText }: IErrorD
 }
 
 ErrorDataNotFound.defaultProps = {
-  title: 'Belum ada data nih, yuk buat baru!',
+  title: 'Belum ada tautan nih, yuk buat baru!',
   useCta: true,
   ctaAction: () => {},
-  ctaText: 'Tambah data baru'
+  ctaText: 'Tambah tautan baru'
 }

@@ -28,7 +28,7 @@ export function Counter({ count = 0 }) {
         ))}
       </Stack>
       <Text textAlign="center" color={textColor}>
-        Tautan telah dipercantik oleh hamsh.me dan akan terus bertambah
+        TAUTAN DISINGKAT OLEH HAMSH.ME
       </Text>
     </Stack>
   )

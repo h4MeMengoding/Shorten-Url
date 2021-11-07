@@ -134,7 +134,7 @@ export function UrlForm({ user, onSuccess }: IUrlFormProps) {
             isInvalid={Boolean(errorUrl)}
             size="lg"
             name="url"
-            placeholder={'Tautan yang ingin dipercantik'}
+            placeholder={'Paste tautan untuk menyingkat'}
             variant="filled"
             value={url}
             onChange={handleChangeUrl}

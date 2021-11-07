@@ -20,10 +20,10 @@ export function ErrorDefault({ title, ctaLink, ctaText }: IErrorDefaultProps) {
           {title}
         </Heading>
         <Image
-          width={400}
-          height={400}
-          src={'/images/illustrations/Processing-amico.svg'}
-          alt="Error happened"
+          width={1086}
+          height={588}
+          src={'/images/illustrations/people.gif'}
+          alt="lari ada wibu"
         />
         <Button
           px={6}
@@ -45,6 +45,6 @@ export function ErrorDefault({ title, ctaLink, ctaText }: IErrorDefaultProps) {
 
 ErrorDefault.defaultProps = {
   title: 'Terjadi kesalahan pada sistem',
-  ctaLink: '/',
-  ctaText: 'Ke beranda'
+  ctaLink: '/auth/sign-in',
+  ctaText: 'Masuk'
 }

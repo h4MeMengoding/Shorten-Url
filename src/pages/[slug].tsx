@@ -12,7 +12,7 @@ function SlugPage() {
     <Layout>
       <MetaHead robots={NO_INDEXED} />
       <Box width="100%">
-        <ErrorDefault title="Yahhh, tautan tidak ada di database" />
+        <ErrorDefault title="Maap, tautan tidak ada di database" />
       </Box>
     </Layout>
   )

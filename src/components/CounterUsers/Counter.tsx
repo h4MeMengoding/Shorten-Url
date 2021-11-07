@@ -28,7 +28,7 @@ export function Counter({ count = 0 }) {
         ))}
       </Stack>
       <Text textAlign="center" color={textColor}>
-        Pengguna yang telah menikmati layanan hamsh.me
+        PENGGUNA MENGGUNAKAN HAMSH.ME
       </Text>
     </Stack>
   )

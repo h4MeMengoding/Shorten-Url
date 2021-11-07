@@ -21,6 +21,8 @@ export interface IFooterProps {
   withBacklink: boolean
 }
 
+import F from "./footer.module.css"
+
 export function Footer({ withBacklink }: IFooterProps) {
   const boxColor = useColorModeValue('gray.700', 'gray.200')
 
@@ -101,13 +103,12 @@ export function Footer({ withBacklink }: IFooterProps) {
         </Box>
       ) : null}
 
-      <Box bg="#008DEF" width="100%">
+      <Box className={F.footer}>
         <Container maxW={'5xl'}>
-          <Flex
+          <Flex 
             as={Stack}
             py={4}
             alignItems="center"
-            direction={{ base: 'column', md: 'row' }}
             spacing={4}
             justify={{ md: 'space-between' }}
             align={{ md: 'center' }}

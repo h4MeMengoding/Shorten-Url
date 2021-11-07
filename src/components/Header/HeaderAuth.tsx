@@ -7,22 +7,19 @@ import { useAuthContext } from 'context/Auth'
 import { DarkModeSwitch } from '../DarkModeSwitch'
 
 import { handleLogout } from 'libs/supabase'
+import H from "./header.module.css"
 
 export function Header() {
   const { isLoading, isLogin } = useAuthContext()
 
   return (
-    <Flex
-      position="fixed"
+    <Flex className={H.header}
       top="0"
       left="0"
       width="100%"
       justifyContent="space-between"
       alignItems="center"
-      p="4"
       as="header"
-      zIndex="3"
-      bg="#008DEF"
     >
       
       <Link

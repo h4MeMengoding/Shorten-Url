@@ -29,13 +29,13 @@ export function Hero() {
               fontSize={{ base: '4xl', sm: '5xl', md: '6xl' }}
               lineHeight={'110%'}
             >
-              Pemendek tautan yang{' '}
+              MANAJEMEN TAUTAN BERBASIS{' '}
               <Text color="#008DEF" as="span">
-                simpel
+                WEB
               </Text>{' '}
-              dan{' '}
+              DAN{' '}
               <Text color="#008DEF" as="span">
-                mudah
+                PWA
               </Text>
             </Heading>
 
@@ -46,7 +46,7 @@ export function Hero() {
               fontSize={{ base: 'lg', sm: 'xl', md: '2xl' }}
               lineHeight={'110%'}
             >
-              Website pemendek tautan yang mudah digunakan dan gratis, hanya dengan login anda sudah bisa membuat tautan menjadi cantik.
+              Website pemendek tautan yang mudah digunakan dan gratis, hanya dengan login anda sudah bisa memodifikasi tautan anda.
             </Text>
 
             <Button
@@ -71,8 +71,8 @@ export function Hero() {
           <Image
             width={400}
             height={400}
-            src={'/images/illustrations/www-amico.svg'}
-            alt="Women with Internet"
+            src={'/images/illustrations/hero.svg'}
+            alt="hamsh free shorten url"
             priority={true}
           />
         </Flex>
