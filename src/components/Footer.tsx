@@ -8,7 +8,7 @@ import {
   Link,
   useColorModeValue
 } from '@chakra-ui/react'
-
+import F from "./footer.module.css"
 import {
   // login,
   tentang,
@@ -21,7 +21,7 @@ export interface IFooterProps {
   withBacklink: boolean
 }
 
-import F from "./footer.module.css"
+
 
 export function Footer({ withBacklink }: IFooterProps) {
   const boxColor = useColorModeValue('gray.700', 'gray.200')
