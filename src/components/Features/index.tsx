@@ -12,8 +12,8 @@ export function Features() {
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
           <Feature
             icon={<Icon as={FcLink} w={10} h={10} />}
-            title={'Mempercantik Tautan'}
-            text={'Tidak perlu lagi mengingat tautan yang panjang, pesan tautan dambaanmu sekarang'}
+            title={'Modifikasi Tautan'}
+            text={'Kamu dapat memodifikasi tautan agar mudah diingat'}
           />
           <Feature
             icon={<Icon as={FcTreeStructure} w={10} h={10} />}

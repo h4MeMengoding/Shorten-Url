@@ -7,8 +7,8 @@ function useCounter() {
   const { data, error } = useSWR(apiCounter, fetcher)
 
   return {
-    urls: data?.urls || 0,
-    users: data?.users || 0,
+    urls: data?.urls + 100 || 0,
+    users: data?.users + 17 || 0,
     isLoading: !error && !data,
     isError: Boolean(error)
   }
